@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y python3.11-venv && mkdir /python && cho
 
 USER icinga
 
-RUN cd /python && python3 -m venv . && /python/bin/pip install requests pg8000 python-irodsclient
+RUN cd /python && python3 -m venv . && /python/bin/pip install requests pg8000 python-irodsclient cryptography
